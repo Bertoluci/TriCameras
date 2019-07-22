@@ -3,7 +3,7 @@ package cz.seucit.axis.enums;
 import cz.seucit.axis.environment.UrlsConstants;
 
 public enum Move {
-    Move,
+    Select,
     Home,
     Up,
     Down,
@@ -16,7 +16,7 @@ public enum Move {
 
     @Override
     public String toString() {
-        if ("Move".equals(this.name())) {
+        if ("Select".equals(this.name())) {
             return "Select move";
         }
         return this.name();

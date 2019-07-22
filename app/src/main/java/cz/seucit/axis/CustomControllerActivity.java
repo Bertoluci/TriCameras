@@ -52,7 +52,7 @@ public class CustomControllerActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
 
                 Move typeOfMove = Move.values()[position];
-                if (Move.Move == typeOfMove) {
+                if (Move.Select == typeOfMove) {
                     return;
                 }
                 String moveUrl = typeOfMove.getUrl();
